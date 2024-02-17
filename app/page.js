@@ -1,5 +1,6 @@
 import FeatureBoxes from "./container/features/page";
 import Hero from "./container/hero/page";
+import Business from "./pages/Businesses/page";
 
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
    
       <Hero />
       <FeatureBoxes />
+      <Business />
       </div>
       </>
   );
