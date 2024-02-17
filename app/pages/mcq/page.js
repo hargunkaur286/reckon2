@@ -2,9 +2,9 @@ import React from 'react';
 
 function Mcq() {
   return (
-    <div>
+    <div className='my-24 p-6'>
       <iframe
-        src="https://9a7c5e1a888232cd10.gradio.live/?"
+        src="https://a822adde206245f518.gradio.live"
         width="100%"
         height="1000" // Adjust the height as needed
         title="Gradio App"

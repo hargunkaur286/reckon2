@@ -3,16 +3,17 @@ import React from 'react';
 function App() {
   return (
     <div>
-      <h1>Welcome to My React App</h1>
-      <p>Here is the embedded Gradio application:</p>
+     <div className='my-16 items-center'>
       <iframe
         title="Gradio Application"
-        src="https://f2594fc86effdfc244.gradio.live"
-        width="800"
-        height="600"
-        frameBorder="0"
+        src="https://8f16a0a3a4a47be2de.gradio.live/"
+        width="1500"
+        height="800"
+        frameBorder="50"
         allowFullScreen
+      
       />
+    </div>
     </div>
   );
 }
